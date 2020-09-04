@@ -9,11 +9,13 @@ body {
 
 .text {
     color: white;
-    font-family: "Fira Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .description {
     text-align: center;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
 }
