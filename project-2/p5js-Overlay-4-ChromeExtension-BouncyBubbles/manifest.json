@@ -1,0 +1,16 @@
+{
+  "name": "p5 Overlay bouncy snacks chrome extension",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "p5js bouncy snacks visual overlay on webpage",
+  "icons": {
+    "128": "icon/p5-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/p5.min.js", "js/sketch.js"],
+      "css": ["css/style.css"]
+    }
+  ]
+}
