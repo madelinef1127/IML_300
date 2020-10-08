@@ -4,21 +4,16 @@ document.body.insertAdjacentHTML('afterbegin', '<div id="p5Canvas"></div>') //Em
 
 //some vars and constants
 let var1;
-let spring = 0.08;
-let gravity = 0.01;
-let friction = -0.09;
+let spring = 0.8;
+let gravity = 0.02;
+let friction = -0.95;
 let snacks = [];
 
 //set up the canvas and run the overlay
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight)
   canvas.parent('p5Canvas')
-}
-
-//start the falling of snacks and set their movements
-function draw() {
-  clear() //Make the background transparent
-  for (let i = 0; i < 2; i++) {
+   for (let i = 0; i < 8; i++) {
     snacks[i] = new Snack(
       random(width),
       random(height),
@@ -27,6 +22,12 @@ function draw() {
       snacks
     );
   }
+}
+
+//start the falling of snacks and set their movements
+function draw() {
+  clear() //Make the background transparent
+ 
     
   let var1 = random(1,5);
 
