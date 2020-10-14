@@ -1,5 +1,8 @@
 # Chrome Extension: Bouncing Snacks
-![Bouncing Snacks]()
+![Donut](https://github.com/madelinef1127/IML_300/blob/master/assets/DONUT.gif)
+![Chips](https://github.com/madelinef1127/IML_300/blob/master/assets/CHIPS.gif)
+![Peppermint Candy](https://github.com/madelinef1127/IML_300/blob/master/assets/CANDY.gif)
+![Pudding](https://github.com/madelinef1127/IML_300/blob/master/assets/PUDDING.gif)
 
 A Google Chrome extension that allows you to play with several bouncing snacks in your browser. An amusement when you're bored waiting for you page to load. Reload the page to explore four different kinds of shapes/icons/patterns. Made with p5.js
 
