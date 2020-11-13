@@ -101,6 +101,8 @@ header .container {
 
 #intro-video {
   align-self: center;
+  z-index: 2000;
+  position: relative;
 }
 
 header .intro-text .name {
