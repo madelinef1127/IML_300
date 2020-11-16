@@ -1,20 +1,21 @@
 body {
     background-image: url(https://media2.giphy.com/media/BHNfhgU63qrks/giphy.gif);
     background-size: cover;
-    color: white;
+    color: #262626;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: #262626;
 }
 
 .link {
-    color: white;
+    color: #262626;
 }
 
 .frame {
     background-color: white;
+    opacity: 0.8;
     margin-left: 200px;
     margin-right: 200px;
     text-align: left;
