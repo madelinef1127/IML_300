@@ -13,7 +13,6 @@ div {
     opacity: 0.8;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
 }
 
 .link {
@@ -22,6 +21,7 @@ div {
 }
 
 .text {
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #262626;
     opacity: 1;
