@@ -10,10 +10,11 @@ h1 {
 
 div {
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.6;
     margin-left: 200px;
     margin-right: 200px;
     text-align: left;
+    padding: 50px 50px 50px 50px;
 }
 
 .link {
