@@ -1,7 +1,6 @@
 body {
     background-image: url(https://media2.giphy.com/media/BHNfhgU63qrks/giphy.gif);
     background-size: cover;
-    color: #262626;
 }
 
 h1 {
@@ -9,14 +8,21 @@ h1 {
     color: #262626;
 }
 
-.link {
-    color: #262626;
-}
-
-.frame {
+div {
     background-color: white;
     opacity: 0.8;
     margin-left: 200px;
     margin-right: 200px;
     text-align: left;
+}
+
+.link {
+    color: #262626;
+    opacity: 1;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: #262626;
+    opacity: 1;
 }
